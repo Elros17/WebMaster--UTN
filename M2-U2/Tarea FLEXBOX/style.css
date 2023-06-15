@@ -1,0 +1,125 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: antiquewhite;
+  text-align: center;
+  
+}
+
+/*EJERCICIO 1*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  height:1080px;  
+  border: 5px solid black;
+
+}
+
+.red-cube,
+.green-cube,
+.yellow-cube {
+  width: 200px;
+  height: 200px;
+}
+
+.red-cube {
+  background-color: red;
+  order: 1;
+}
+
+.green-cube {
+  background-color: rgb(26, 28, 175);
+  order: 2;
+}
+
+.yellow-cube {
+  background-color: rgb(69, 196, 44);
+  order: 3;
+}
+
+
+
+
+
+
+
+
+/*EJERCICIO 2
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height:600px; 
+  width:600px; 
+  border: 5px solid black;
+
+}
+
+.red-cube,
+.green-cube,
+.yellow-cube {
+  width: 200px;
+  height: 200px;
+}
+
+.red-cube {
+  background-color: red;
+  order: 1;
+}
+
+.green-cube {
+  background-color: rgb(26, 28, 175);
+  order: 2;
+}
+
+.yellow-cube {
+  background-color: rgb(69, 196, 44);
+  order: 3;
+}
+/*
+
+
+
+
+
+
+
+
+/* EJERCICIO 3
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    
+  }
+  
+  .red-cube, .green-cube, .yellow-cube {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .red-cube {
+    background-color: red;
+    order: 1;
+  }
+  
+  .green-cube {
+    background-color: rgb(26, 28, 175);
+    order: 2;
+  }
+  
+  .yellow-cube {
+    background-color: rgb(69, 196, 44);
+    order: 3;
+  } */
+
+
+
+
