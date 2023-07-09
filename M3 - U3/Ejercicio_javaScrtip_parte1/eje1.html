@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        var distancia;
+        distancia = prompt('Distancia a recorrer', '');
+
+        //Convertimos a entero
+        distancia = parseInt(distancia);
+
+        switch (true) {
+            case (distancia <= 1000):
+                document.write('Pie');
+                break;
+            case (distancia <= 10000):
+                document.write('Bici');
+                break;
+            case (distancia <= 30000):
+                document.write('Colectivo');
+                break;
+            case (distancia <= 100000):
+                document.write('Auto');
+                break;
+            case (distancia > 100000):
+                document.write('Avion');
+                break;
+            /* default:document.write('debe ingresar un valor comprendido entre 1 y 5.');*/
+        }
+    </script>
+
+</body>
+
+</html>
